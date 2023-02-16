@@ -1,0 +1,50 @@
+body {
+  background-image: url("grafite.avif") ;
+  background-size: 100%;
+   font-family: 'Orbitron', sans-serif;
+   
+}
+
+h3 {
+  color: blue;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px black;
+  
+}
+
+canvas {
+  margin-top: 5%;
+  animation-name: borda ;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border: 2px solid blue;
+
+}
+
+@keyframes borda {
+  from{box-shadow: 2px 2px 40px aquamarine;}
+  to{box-shadow: 2px 2px 40px red;}
+}
+
+button {
+  color: chartreuse;
+  border-radius: 20px;
+  background-color: blueviolet;
+  padding: 5px;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute ;
+  bottom: 0;
+  color: blue;
+  width: 100%;
+  text-align: center;
+  background-color: darkgrey;
+  padding: 10px;
+  
+  
+}
+
+
+
